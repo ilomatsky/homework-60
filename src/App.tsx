@@ -52,7 +52,7 @@ const App: React.FC = () => {
   };
 
   return (
-    <div>
+    <div className="app-container">
       <MessagesList messages={messages}/>
       <NewMessageInput onSendMessage={sendMessage}/>
     </div>
